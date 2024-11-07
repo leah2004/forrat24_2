@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">bills</string>
+
+    <string name="continion">Далее</string>
+    <string name="date">Дата:</string>
+    <string name="name">Задача:</string>
+    <string name="yet">Подробная информация</string>
+    <string name="start">Показать</string>
+    <string name="returnb">Добавить задачу</string>
+    <string name="login">Введите логин</string>
+    <string name="password">Введите пароль</string>
+    <string name="newtask">Новая задача</string>
+    <string name="red">Редактировать</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="lkdjfdflkfrw">+</string>
+    <string name="jhdfdf">сумма дохода</string>
+    <string name="kjdhfdff">описание дохода</string>
+    <string name="dkjhfdf">Редактирование:</string>
+    <string name="kjhfghfg">Запись дохода</string>
+    <string name="dfdhkdf">Сумма дохода</string>
+    <string name="kjdhfhd">Дата получения</string>
+    <string name="kidjfhdf">записать</string>
+    <string name="dufidf"><![CDATA[->]]></string>
+    <string name="idhfdfhf">Источник дохода</string>
+</resources>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragment2"
+    android:padding="15dp"
+    android:background="@drawable/kk">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="196dp"
+        tools:layout_editor_absoluteY="208dp">
+
+        <TextView
+            android:id="@+id/date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button"
+            android:minHeight="48dp"
+            android:paddingLeft="20dp"
+            android:paddingTop="5dp"
+            android:textColor="@color/black"
+            android:textSize="@dimen/thisis24sp" />
+
+        <TextView
+            android:id="@+id/f"
+            android:layout_width="322dp"
+            android:layout_height="42dp"
+            android:fontFamily="sans-serif"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="@dimen/thisis24sp"
+            tools:ignore="MissingConstraints" />
+
+        <TextView
+            android:id="@+id/task"
+            android:layout_width="match_parent"
+            android:layout_height="49dp"
+            android:background="@drawable/button"
+            android:paddingLeft="20dp"
+            android:paddingTop="10dp"
+            android:textColor="@color/black"
+            android:textSize="@dimen/thisis24sp"
+            tools:ignore="TouchTargetSizeCheck" />
+
+        <TextView
+            android:id="@+id/tv_yet"
+            android:layout_width="322dp"
+            android:layout_height="42dp"
+            android:fontFamily="sans-serif"
+            android:text="@string/idhfdfhf"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="@dimen/thisis24sp"
+            android:textStyle="bold"
+
+            tools:ignore="MissingConstraints" />
+
+        <EditText
+            android:id="@+id/ed_yet"
+            android:layout_width="340dp"
+            android:layout_height="109dp"
+            android:background="@drawable/button"
+            android:gravity="top|start"
+            android:paddingLeft="20dp"
+            android:paddingTop="20dp"
+            android:paddingRight="20dp"
+            android:textColor="@color/black"
+            android:textSize="@dimen/thisis18sp"
+            tools:ignore="MissingConstraints" />
+
+        <Button
+            android:id="@+id/button_f2"
+            android:layout_width="238dp"
+            android:layout_height="51dp"
+            android:layout_margin="10dp"
+            android:layout_marginBottom="336dp"
+            android:background="@drawable/button"
+            android:text="@string/dufidf"
+            android:textColor="@color/black"
+            android:textSize="@dimen/thisis24sp" />
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
